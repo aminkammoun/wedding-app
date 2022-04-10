@@ -8,9 +8,10 @@ npm run dev
 # or
 yarn dev
 ```
-
 then open http://localhost:3000 in your browser
-###Run database server : configs:
+
+###Run database server :
+
 make sure you've installed mongodb and node js on your machine
 
 ```
