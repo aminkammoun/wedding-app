@@ -93,7 +93,7 @@ export default function Login() {
           <div className="border-2 w-10 border-white inline-block mb-2"></div>
           <p className="mb-2"> Première visite sur OrganisateurMariage !</p>
           <a
-            href="#"
+            href="/Register"
             className="border-2 border-white rounded-full py-2 px-12 inline-block font-semibold hover:bg-white hover:text-green-500  my-3"
           >
             Inscrivez
