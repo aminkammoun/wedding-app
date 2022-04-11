@@ -8,6 +8,7 @@ import {
   FaGoogle,
   FaRegEnvelope,
 } from "react-icons/fa";
+import Link from "next/link";
 import { MdLockOutline } from "react-icons/md";
 export default function Register() {
   return (
@@ -23,13 +24,13 @@ export default function Register() {
           {/* -----------sign up section------------ */}
           <div className="w-full p-9">
             <div className="text-left font-bold">
-              <span className="text-green-500">Organisateur</span>Mariage
+              <span className="text-fuchsia-400">Organisateur</span>Mariage
             </div>
             <div className="py-10">
-              <h2 className="text-3xl font-bold text-green-500 mb-2">
+              <h2 className="text-3xl font-bold text-fuchsia-400 mb-2">
                 Créer votre compte
               </h2>
-              <div className="border-2 w-10 border-green-500 inline-block mb-2"></div>
+              <div className="border-2 w-10 border-fuchsia-400 inline-block mb-2"></div>
 
               <p className="text-gray-400 my-3">Inscrivez vous </p>
               <div className="flex flex-col items-center ">
@@ -81,9 +82,9 @@ export default function Register() {
 
                 <a
                   href="#"
-                  className="border-2 border-green-500 rounded-full text-green-500 py-2 px-12 inline-block font-semibold hover:bg-green-500 hover:text-white"
+                  className="border-2 border-fuchsia-400 rounded-full text-fuchsia-400 py-2 px-12 inline-block font-semibold hover:bg-fuchsia-400 hover:text-white"
                 >
-                  Inscrivez
+                  <Link href="/">Inscrivez</Link>
                 </a>
               </div>
             </div>
