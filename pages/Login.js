@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import axios from "axios";
 import { MdLockOutline } from "react-icons/md";
+import Link from "next/link";
 export default function Login() {
   function clickme() {
     axios.get("http://localhost:5000/user/").then((res) => {
@@ -99,11 +100,8 @@ export default function Login() {
             <h2 className="text-3xl font-bold mb-2"> Bonjour, les amis</h2>
             <div className="border-2 w-10 border-white inline-block mb-2"></div>
             <p className="mb-2"> Première visite sur OrganisateurMariage !</p>
-            <a
-              href="/Register"
-              className="border-2 border-white rounded-full py-2 px-12 inline-block font-semibold hover:bg-white hover:text-green-500  my-3"
-            >
-              Inscrivez
+            <a className="border-2 border-white rounded-full py-2 px-12 inline-block font-semibold hover:bg-white hover:text-green-500  my-3">
+              <Link href="/Register">Inscrivez</Link>
             </a>
           </div>
         </div>
